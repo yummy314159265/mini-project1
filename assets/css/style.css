@@ -1,0 +1,109 @@
+:root {
+    --lightblue: #cce3ff;
+    --purple: #e647ff;
+    --blue: #8ca8ff;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--purple)
+}
+
+body{
+    position: relative;
+    background-color: var(--lightblue);
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: var(--lightblue);
+    border-bottom: 5px solid var(--blue);
+}
+
+header h1 {
+    text-align: left; 
+    margin-left: 10px;   
+}
+
+header ul {
+    text-align: right;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+}
+
+#gyerf {
+    width: 100%;
+    margin: auto;
+}
+
+#gyerf figure img {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: block;
+}
+
+#gyerf figure figcaption {
+    text-align: center;
+}
+
+#gyerf figure figcaption a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#gyerf h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+#gyerf p {
+    margin: auto;
+}
+
+#contact {
+    border-top: 5px solid var(--blue);
+}
+
+#contact h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact div {
+    width: fit-content;
+    margin: auto;
+}
+
+#submit {
+    margin-top: 5px;
+}
